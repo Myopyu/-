@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    background:url(./image/fon.png) no-repeat center center/100%;
 }
 ol, ul {
 	list-style: none;
@@ -46,6 +47,12 @@ table {
     display: none;
 }
 
+.start{
+    background:white;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
 .car, .enemy{
     width: 50px;
     height: 100px;
